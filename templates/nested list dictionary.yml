@@ -1,0 +1,30 @@
+---
+# Sample dictionary with nesting
+- Job: 
+	location: seattle
+	description: engineer
+                    - junior
+                    - devops
+	technologies: 
+        - ansible
+        - powershell
+        - bash
+        - chef
+        - puppet
+    perks: 
+        - beverages: 
+            - cold:
+                - beer
+                    - Pyramid
+                    - Rogue
+                    - Elysian
+                    - Disaster
+                    - Hale's
+                    - Georgetown                 
+                - cola
+                - ginger ale
+            - hot:
+                - tea
+                - toddy
+                - coffee
+...
